@@ -1,0 +1,173 @@
+/*-------------------
+ google fonts cdn 
+------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Lobster&family=Poppins&display=swap");
+
+/* ----------------
+ global css style 
+------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+}
+li,
+a,
+button {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+/*-------------- 
+Nvigation style
+-------------- */
+
+header {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.logo:hover {
+  background-color: rgb(253, 148, 148);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.nav-link {
+  list-style: none;
+}
+.nav-link li {
+  display: inline-block;
+  margin: 20px;
+  padding: 0 10px;
+}
+.nav-link li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+}
+.nav-link li a:hover {
+  background-color: rgb(253, 148, 148);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+/* -----------------
+hero section start here 
+----------------------- */
+
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+.hero-body {
+  display: flex;
+}
+.hero-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.hero-text h1 {
+  font-weight: 700;
+  font-size: 52px;
+}
+.hero-text p {
+  font-weight: 600;
+  font-size: 16px;
+}
+.btn-prebook {
+  background-color: rgb(234, 76, 76);
+  font-size: 16px;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+  border-style: none;
+  cursor: pointer;
+}
+.btn-prebook:hover {
+  background-color: gold;
+  transition: all 0.5s;
+}
+.hero-img {
+  background-image: url("images/Circle\ design.svg");
+  position: relative;
+}
+/* ----------
+sponsor style 
+------------- */
+.sponsor {
+  margin-top: 100px;
+}
+.sponsor-body {
+  border-top: 0.5px solid #161616;
+  border-bottom: 0.5px solid #161616;
+  align-items: center;
+  padding: 20px;
+}
+.sponsor-body ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.sponsor-body ul li {
+  list-style: none;
+}
+/* ------------
+ product style 
+ -------------- */
+.product {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.product-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-body {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 1em;
+  justify-content: center;
+}
+.product-card {
+  padding: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
