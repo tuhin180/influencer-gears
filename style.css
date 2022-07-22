@@ -171,3 +171,56 @@ sponsor style
   display: flex;
   align-items: center;
 }
+.fa-star {
+  color: gold;
+  font-size: 20px;
+}
+.fa-star-half-stroke {
+  color: gold;
+  font-size: 20px;
+}
+.see-more {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 100px;
+}
+.see-more a {
+  font-size: 16px;
+  color: orangered;
+}
+footer {
+  margin-top: 100px;
+  background-color: #161616;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.footer-text h2 {
+  color: white;
+  font-size: 25px;
+
+  font-weight: bold;
+}
+.footer-text p {
+  color: white;
+  font-size: 12px;
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  color: #fafafa;
+}
