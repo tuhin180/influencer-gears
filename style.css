@@ -86,6 +86,7 @@ main {
 }
 .hero-body {
   display: flex;
+  gap: 20px;
 }
 .hero-content {
   width: 100%;
